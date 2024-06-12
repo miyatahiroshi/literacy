@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-<table>
-    <caption>
-    表の表し方
-   </caption>
-    <thead>
+<html>
+<head>
+<title>セルを縦に結合する</title>
+</head>
+<body>
+ <table border="1" width="300" >
     <tr>
-      <th>名前</th>
-      <th>職種</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>ボブ</td>
-      <td>Webディレクター見習い</td>
+      <th>ice/hot</th>
+      <th>種類</th>
+      <th>金額</th>
     </tr>
     <tr>
-      <td>ムカミ</td>
-      <td>Webプログラマー見習い</td>
+      <td rowspan="2">hot</td>
+      <!-- セルを縦に2つ結合する -->
+      <td>コーヒー</td>
+      <td>300</td>
     </tr>
     <tr>
-      <td>メアリー</td>
-      <td>Webデザイナー見習い</td>
+      <td>紅茶</td>
+      <td>250</td>
     </tr>
-  </tbody>
+   <tr>
+      <td>ice</td>
+      <td>りんごジュース</td>
+      <td>200</td> 
+    </tr>
   </table>
-  </html>
+</body>
+</html>
