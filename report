@@ -1,0 +1,2 @@
+!echo 24G3129 > report
+!cat report 
